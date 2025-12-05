@@ -22,4 +22,4 @@ if __name__ == "__main__":
 
     gpa = grade_sys.calculate_gpa(newStudent)
 
-    print(f"GPA: {gpa}")
+    print(f"Grade Point Average: {gpa}")
