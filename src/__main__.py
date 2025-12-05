@@ -14,15 +14,20 @@ if __name__ == "__main__":
     newCourse2 = Course("World History", 2, "LEC")
 
     newStudent = Student("SV001", "HNNT", "ADP", "CS")
+    newStudent2 = Student("SV002", "KEIN", "ADP", "CS")
 
     newStudent.join_class(newClass1)
     newStudent.join_class(newClass2)
+    newStudent2.join_class(newClass1)
 
     grade_sys = GradeSystem()
 
     grade_sys.assign_grade(newStudent, newCourse1, 8.0)
     grade_sys.assign_grade(newStudent, newCourse2, 7.0)
+    
+    grade_sys.assign_grade(newStudent2, newCourse1, 8.0)
 
     gpa = grade_sys.calculate_gpa(newStudent)
+    gpa2 = grade_sys.calculate_gpa(newStudent2)
 
-    print(f"Grade Point Average: {gpa}")
+    print(f"Grade Point Average: {gpa, gpa2}")
