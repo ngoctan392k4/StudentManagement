@@ -7,3 +7,5 @@ packages/
 *. log
 *. cache
 __pycache__/
+.env
+node_modules/
