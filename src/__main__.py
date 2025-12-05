@@ -3,6 +3,9 @@ from src.StudentModule.student import Student
 from src.CourseModule.course import Course
 from src.GradeModule.grade import GradeSystem
 
+# INTRODUCTION
+# This is a program for student management, allowing users to create new students, assign classes for them, edit grades, create classes
+
 if __name__ == "__main__":
     newClass1 = ClassInfo("IS CR 250 A", "TRƯƠNG VĂN TRƯƠNG")
     newCourse1 = Course("Foundation of computer system", 3, "LEC")
