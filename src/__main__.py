@@ -15,6 +15,7 @@ if __name__ == "__main__":
 
     newStudent = Student("SV001", "HNNT", "ADP", "CS")
     newSudent2 = Student("SV002", "Nah", "ADP", "Magic")
+    newStudent3 = Student("SV0003", "Wtf", "ADP", "Esport")
 
     newStudent.join_class(newClass1)
     newStudent.join_class(newClass2)
@@ -28,3 +29,5 @@ if __name__ == "__main__":
     # Kiên bé đù
 
     print(f"Grade Point Average: {gpa}")
+
+    #COmment for fun
