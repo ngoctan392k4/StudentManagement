@@ -21,10 +21,10 @@
 4. THÀNH VIÊN THỰC HIỆN
 - Huỳnh Nguyễn Ngọc Tân
 
-5. HƯỚNG DẪN CHẠY THỬ
-Folder project tên: StudentManagement 
-Trong folder có chứa folder src chứa tất cả module và hàm main 
-1. Mở project bằng Visual Studio 
-2. Mở terminal và đứng ở thư mục StudentManagement 
-3. Nhập câu lệnh ( python -m src ) để chạy
-4. Màn hình sẽ hiển thị thông tin điểm và GPA của sinh viên
+5. HƯỚNG DẪN CHẠY THỬ  
+Folder project tên: StudentManagement   
+Trong folder có chứa folder src chứa tất cả module và hàm main   
+5.1. Mở project bằng Visual Studio   
+5.2. Mở terminal và đứng ở thư mục StudentManagement   
+5.3. Nhập câu lệnh ( python -m src ) để chạy  
+5.4. Màn hình sẽ hiển thị thông tin điểm và GPA của sinh viên  
