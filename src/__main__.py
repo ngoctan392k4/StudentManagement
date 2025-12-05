@@ -14,6 +14,7 @@ if __name__ == "__main__":
     newCourse2 = Course("World History", 2, "LEC")
 
     newStudent = Student("SV001", "HNNT", "ADP", "CS")
+    newSudent2 = Student("SV002", "Nah", "ADP", "Magic")
 
     newStudent.join_class(newClass1)
     newStudent.join_class(newClass2)

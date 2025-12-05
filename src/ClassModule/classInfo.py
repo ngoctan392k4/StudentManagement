@@ -4,4 +4,4 @@ class ClassInfo:
         self.instructor = instructor
 
     def show_info(self):
-        return f"Class: {self.class_name} with Instructor: {self.instructor}"
+        return f"Class: {self.class_name} with Instructor: {self.instructor}!"
