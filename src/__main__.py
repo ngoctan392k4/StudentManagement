@@ -26,5 +26,6 @@ if __name__ == "__main__":
 
     gpa = grade_sys.calculate_gpa(newStudent)
     # Kiên bé đù
+    # Kiên rất quậy
 
     print(f"Grade Point Average: {gpa}")
